@@ -96,20 +96,23 @@ h2 {
 }
 
 .highlight {
-	border-bottom: 1px solid black;
-	/* margin-bottom: 30px; */
-	padding-bottom: 30px;
+	/* border-bottom: 1px solid black; */
+	margin-bottom: 30px;
+	/* padding-bottom: 30px; */
 }
 
 .mid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/* align-items: center; */
-	align-content: space-around;
-	height: 750px;
-	margin: 10px 0;
-	border: 1px solid black;
+	/* align-items: stretch; */
+	/* align-content: space-around; */
+	height: 745px;
+	/* margin: 15px 0; */
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	margin-bottom: 30px;
 }
 
 .box {
@@ -131,4 +134,33 @@ button {
 	height: 35px;
 	border: 1px solid black;
 	background-color: white;
+	position: relative;
+	top: 5px;
+}
+
+.bottom {
+	/* border-top: 1px solid black; */
+	/* padding-top: 20px; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.b-left {
+	width: 48%;
+	/* border: 1px solid red; */
+}
+
+.awesome li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.services-info-img {
+	width: 428px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
 }
